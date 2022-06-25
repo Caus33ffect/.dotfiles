@@ -4,12 +4,15 @@ set $mod Mod4
 
 # Applications
 
-## binds
+## lightning
 bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+w exec firefox 
-bindsym $mod+Shift+d exec "rofi -modi drun"
+bindsym $mod+d exec "rofi -show drun"
 
 ## always execute
+exec_always --no-startup-id nitrogen --restore
+exec_always --no-startup-id autotiling
+exec_always --no-startup-id compton
 
 # Vision Control
 
@@ -90,7 +93,16 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Management
+## window aesthetics
 
+gaps inner 2
+gaps outer 1
+default_border pixel 2
+default_floating_border pixel 2
+new_window pixel 2
+
+## font
+font Hack Nerd Font 8
 ## reload config
 bindsym $mod+Shift+c reload
 ## restart
