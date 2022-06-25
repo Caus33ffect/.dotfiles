@@ -5,7 +5,7 @@ set $mod Mod4
 # Applications
 
 ## lightning
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec alacritty --working-directory ~
 bindsym $mod+Shift+w exec firefox 
 bindsym $mod+d exec "rofi -show drun"
 
