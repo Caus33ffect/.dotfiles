@@ -13,7 +13,7 @@ bindsym $mod+d exec "rofi -show drun"
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id compton
-
+exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
 # Vision Control
 
 ## Focus Control
