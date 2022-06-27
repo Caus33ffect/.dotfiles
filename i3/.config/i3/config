@@ -6,14 +6,15 @@ set $mod Mod4
 
 ## lightning
 bindsym $mod+Return exec alacritty --working-directory ~
-bindsym $mod+Shift+w exec firefox 
-bindsym $mod+d exec "rofi -show drun"
+#bindsym $mod+Shift+w exec firefox 
+#bindsym $mod+d exec "rofi -show drun"
 
 ## always execute
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id compton
 exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id sxhkd
 # Vision Control
 
 ## Focus Control
