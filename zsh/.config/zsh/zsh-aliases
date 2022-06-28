@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+# Useful Shortcuts
+alias v='nvim'
+alias update='sudo pacman -Syu'
+
+
+
+
+
+
+

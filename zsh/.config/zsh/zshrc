@@ -1,9 +1,0 @@
-
-
-
-# Sourcing files
-zsh_add_file "zsh-functions"
-
-# Plugins
-
-zsh_add_plugin "zsh-users/zsh-autosuggestions"

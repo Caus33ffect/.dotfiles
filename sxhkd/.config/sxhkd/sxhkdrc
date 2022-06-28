@@ -7,4 +7,4 @@ super + shift + d
 # firefox 
 
 super + shift + w 
-	firefox
+	brave	
