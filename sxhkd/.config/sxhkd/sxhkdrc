@@ -4,7 +4,7 @@ super + d
 # emoji picker
 super + shift + d  
 	rofi -show emoji -modi emoji
-# firefox 
+# brave 
 
 super + shift + w 
 	brave	
