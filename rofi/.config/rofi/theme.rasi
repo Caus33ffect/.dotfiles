@@ -41,7 +41,7 @@
     highlight:     underline bold #ffffff;
 
     transparent: rgba(0,0,0,0);
-    font: "Iosevka Nerd Font 10";
+    font: "Hack Nerd Font 10";
 }
 window {
     location: center;
