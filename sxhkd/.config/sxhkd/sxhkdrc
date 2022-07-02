@@ -8,3 +8,9 @@ super + shift + d
 
 super + shift + w 
 	firefox	
+
+
+# Quick Capture
+
+super + shift + n
+	xpad -s
